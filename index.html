@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>█ HACK THE FUTURE █ - IA DECISION MATRIX</title>
+</head>
+<body>
+    <div class="matrix-bg"></div>
+    <div class="scan-line"></div>
+    
+    <main class="terminal-container">
+        <div class="hud-header">
+            <div class="status-bar">
+                <span class="status-led"></span>
+                <span class="status-text">SYSTEM: ONLINE</span>
+                <span class="status-led red"></span>
+                <span class="status-text">ENCRYPTION: ACTIVE</span>
+            </div>
+            <div class="glitch-title" data-text=">_ RASINFORMATICA">>_ RASINFORMATICA_💀</div>
+            <div class="subtitle">[ DECODIFICANDO O DESTINO DA IA ]</div>
+        </div>
+
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="terminal-btn close"></span>
+                    <span class="terminal-btn min"></span>
+                    <span class="terminal-btn max"></span>
+                </div>
+                <span class="terminal-path">root@hacker:~$ ./ia_decision_matrix.sh</span>
+            </div>
+
+            <div class="terminal-content">
+                <div class="prompt-line">
+                    <span class="prompt-sign">➜</span>
+                    <span class="prompt-path">~</span>
+                    <span class="prompt-dollar">$</span>
+                    <span class="prompt-command">INITIALIZING NEURAL INTERFACE...</span>
+                </div>
+                
+                <div class="question-container">
+                    <div class="question-header">
+                        <span class="question-badge">[QUEST]</span>
+                        <span class="question-counter">NÍVEL <span id="level-num">1</span>/<span id="total-levels">5</span></span>
+                    </div>
+                    <div class="caixa-perguntas" id="question-text">
+                        </div>
+                </div>
+
+                <div class="alternatives-container">
+                    <div class="alternatives-header">
+                        <span class="alternatives-badge">[OPÇÕES]</span>
+                        <span class="hack-hint">>_ ESCOLHA SEU DESTINO</span>
+                    </div>
+                    <div class="caixa-alternativas" id="alternatives-box">
+                    </div>
+                </div>
+
+                <div class="result-container hidden" id="result-box">
+                    <div class="result-header">
+                        <span class="result-badge">[LOG]</span>
+                        <span class="result-title">>_ TRAJETÓRIA DECODIFICADA</span>
+                    </div>
+                    <div class="caixa-resultado">
+                        <div class="typing-effect" id="result-text"></div>
+                    </div>
+                    <div class="result-footer">
+                        <div class="binary-code" id="binary-effect">01001000 01000001 01000011 01001011</div>
+                    </div>
+                </div>
+
+                <div class="progress-bar-container">
+                    <div class="progress-label">PROGRESSO DA JORNADA</div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="progress-fill"></div>
+                    </div>
+                    <div class="progress-percent" id="progress-percent">0%</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-stats">
+            <div class="stat-item">
+                <span class="stat-icon">🖥️</span>
+                <span class="stat-label">SESSÃO:</span>
+                <span class="stat-value" id="session-id">H4CK3R_001</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-icon">⚡</span>
+                <span class="stat-label">NEXUS:</span>
+                <span class="stat-value" id="nexus-level">INICIANDO...</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-icon">🔒</span>
+                <span class="stat-label">ENCRIPTAÇÃO:</span>
+                <span class="stat-value">AES-256</span>
+            </div>
+        </div>
+    </main>
+
+    <div class="noise-overlay"></div>
+    <script src="script.js"></script>
+</body>
+</html>
